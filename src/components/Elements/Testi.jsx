@@ -11,7 +11,7 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 
 const Testi = () => {
   return (
-    <div className="w-full h-screen pt-10 bg-third">
+    <div className="w-full h-screen pt-10 bg-third" id="Testi">
       <div className="flex flex-col items-center">
         <h1 className="px-5 pb-5 text-5xl font-semibold border-b-2 border-black font-poppins">Our Testimonial</h1>
       </div>

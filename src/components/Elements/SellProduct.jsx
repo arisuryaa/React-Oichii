@@ -48,7 +48,7 @@ const Menus = [
 
 const SellProduct = () => {
   return (
-    <div className="w-full min-h-fit bg-primary">
+    <div className="w-full min-h-fit bg-primary" id="SellProduct">
       <div className="relative flex flex-col items-center w-full h-full">
         <h1 className="pb-4 my-10 text-5xl font-semibold text-center border-b-2 border-black font-poppins">Our Product</h1>
         <div className="flex flex-wrap items-center justify-center w-full h-full pb-20 gap-7">

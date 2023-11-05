@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { easeInOut, motion, AnimatePresence } from "framer-motion";
-
+import { Link } from "react-scroll";
 const Navbar = () => {
   const [Click, setClick] = useState(false);
 
@@ -10,14 +10,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-secondary text-white py-4 flex justify-between px-9 items-center shadow-xl">
-      <h1 className="text-white font-poppins font-semibold text-xl">OICHII</h1>
+    <nav className="flex items-center justify-between py-4 text-white shadow-xl bg-secondary px-9">
+      <h1 className="text-xl font-semibold text-white font-poppins">OICHII</h1>
       <img src="/img/hamburger.svg" className="cursor-pointer" alt="" onClick={() => HandleonClick()} />
 
       <AnimatePresence>
         {Click && (
           <motion.div
-            className="fixed top-0 right-0 flex flex-col items-center w-2/6 h-screen  bg-secondary shadow-lg z-50"
+            className="fixed top-0 right-0 z-50 flex flex-col items-center w-2/6 h-screen shadow-lg bg-secondary"
             initial={{
               x: 450,
             }}
@@ -36,26 +36,26 @@ const Navbar = () => {
               },
             }}
           >
-            <div className="flex items-center w-2/3 pb-2 mt-10 mb-5 border-b-2 border-white text-white">
+            <div className="flex items-center w-2/3 pb-2 mt-10 mb-5 text-white border-b-2 border-white">
               <h1 className="w-full text-3xl font-semibold">Oichii.</h1>
               <img src="/img/close.svg" alt="" className="cursor-pointer" onClick={() => HandleonClick()} />
             </div>
             <div className="flex flex-col w-2/3 text-white">
-              <a href="" className="mb-4 text-xl font-medium">
+              <Link to="Hero" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
                 Home
-              </a>
-              <a href="" className="mb-4 text-xl font-medium">
+              </Link>
+              <Link to="story" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
                 About
-              </a>
-              <a href="" className="mb-4 text-xl font-medium">
+              </Link>
+              <Link to="SellProduct" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
                 Menu
-              </a>
-              <a href="" className="mb-4 text-xl font-medium">
+              </Link>
+              <Link to="Testi" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
                 Testimonial
-              </a>
-              <a href="" className="mb-4 text-xl font-medium">
+              </Link>
+              <Link to="Contact" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
                 Contact
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}

@@ -7,14 +7,14 @@ const Hero = () => {
     img3: "/img/menu3.svg",
   };
 
-  const [bigImage, setBigImage] = useState(cakeImg.img1);
+  const [bigImage, setBigImage] = useState(cakeImg.img3);
 
   const changeImage = (url) => {
     setBigImage(url);
   };
 
   return (
-    <div className="w-full h-screen bg-primary ">
+    <div className="w-full h-screen bg-primary " id="Hero">
       <div className="absolute z-10 flex items-center justify-center w-full h-screen">
         <h1 className="absolute top-20 text-[10rem] z-0 opacity-5 overflow-x-hidden font-semibold whitespace-nowrap">OICHII CAKE</h1>
         <h1 className="absolute top-0 text-[10rem] z-0 opacity-5 overflow-x-hidden  mt-56 font-semibold whitespace-nowrap">OICHII CAKE</h1>

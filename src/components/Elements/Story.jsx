@@ -2,7 +2,7 @@ import React from "react";
 
 const Story = () => {
   return (
-    <div className="w-full h-screen bg-primary">
+    <div className="w-full h-screen bg-primary" id="story">
       <div className="relative flex flex-col items-center justify-center w-full h-full">
         <img src="/img/aboutcake.svg" className="absolute bottom-0 rotate-45 -left-20 h-60 " alt="" />
         <h1 className="px-5 pb-4 mb-10 text-5xl font-semibold border-b-2 border-black font-poppins">Our Story</h1>
