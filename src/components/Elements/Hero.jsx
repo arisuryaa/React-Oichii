@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { motion } from "framer-motion";
 const Hero = () => {
   const cakeImg = {
     img1: "/img/header1.svg",
@@ -30,7 +30,7 @@ const Hero = () => {
           <br />
           That Made With Love
         </p>
-        <img src={bigImage} className="z-20 h-48 " alt="" />
+        <motion.img src={bigImage} className="z-20 h-48 " alt="" initial={{ y: 0 }} animate={{ y: [25, 0, 25], transition: { repeat: Infinity, duration: 3, delay: 1, ease: "easeInOut" } }} />
         <img src="/img/shadow.svg" className="z-20 h-14" alt="" />
         <h1>Try Our Best Seller</h1>
         <div className="z-30 flex mt-5 cursor-pointer">

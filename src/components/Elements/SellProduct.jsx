@@ -4,42 +4,42 @@ import Button from "./Button";
 const Menus = [
   {
     id: 1,
-    name: "Cheese Cake",
+    name: "Bolu Gulung",
     desc: "Kue Keju yang dibuat dengan keju pilihan menghasilkan rasa yang sangat enak",
-    price: "Rp.50.000",
+    price: "Rp.35.000",
     image: "/img/menu1.svg",
   },
   {
     id: 2,
-    name: "Roll Cake",
+    name: "Bolu Original",
     desc: "Kue Keju yang dibuat dengan keju pilihan menghasilkan rasa yang sangat enak",
-    price: "Rp.50.000",
+    price: "Rp.30.000",
     image: "/img/menu2.svg",
   },
   {
     id: 3,
-    name: "Roll Cake",
+    name: "Brownies Coklat",
     desc: "Kue Keju yang dibuat dengan keju pilihan menghasilkan rasa yang sangat enak",
     price: "Rp.50.000",
     image: "/img/menu3.svg",
   },
   {
     id: 4,
-    name: "Roll Cake",
+    name: "Bolu Coklat",
     desc: "Kue Keju yang dibuat dengan keju pilihan menghasilkan rasa yang sangat enak",
-    price: "Rp.50.000",
+    price: "Rp.45.000",
     image: "/img/menu4.svg",
   },
   {
     id: 5,
-    name: "Roll Cake",
+    name: "Kue Nanas",
     desc: "Kue Keju yang dibuat dengan keju pilihan menghasilkan rasa yang sangat enak",
-    price: "Rp.50.000",
+    price: "Rp.40.000",
     image: "/img/menu5.svg",
   },
   {
     id: 6,
-    name: "Roll Cake",
+    name: "Sugar Cake",
     desc: "Kue Keju yang dibuat dengan keju pilihan menghasilkan rasa yang sangat enak",
     price: "Rp.50.000",
     image: "/img/header1.svg",
@@ -64,7 +64,7 @@ const SellProduct = () => {
                   </div>
                 </div>
                 <div className="flex items-end justify-between w-full h-full px-5 ">
-                  <Button>Buy Now</Button>
+                  <Button kue={e.name}>Buy Now</Button>
                   <h1 className="text-xl font-semibold font-poppins">{e.price}</h1>
                 </div>
               </div>

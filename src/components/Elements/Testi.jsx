@@ -35,7 +35,7 @@ const Testi = () => {
           <SwiperSlide>
             <div className="w-full h-full bg-white rounded-lg shadow-xl">
               <div className="flex py-10 mx-10">
-                <img src="/img/header2.svg" className="border-2 border-black rounded-full h-11" alt="" />
+                <img src="/img/fotoProfile.svg" className="border-2 border-black rounded-full h-11" alt="" />
                 <div className="flex flex-col ml-5">
                   <h1 className="font-medium font-poppins">Dewa</h1>
                   <p>Probowo2024@gmail.com</p>
@@ -50,7 +50,7 @@ const Testi = () => {
           <SwiperSlide>
             <div className="w-full h-full bg-white rounded-lg">
               <div className="flex py-10 mx-10">
-                <img src="/img/header2.svg" className="overflow-hidden border-2 border-black rounded-full h-11" alt="" />
+                <img src="/img/fotoProfile2.svg" className="overflow-hidden border-2 border-black rounded-full h-11" alt="" />
                 <div className="flex flex-col ml-5">
                   <h1 className="font-medium font-poppins">RonaldoGoat</h1>
                   <p>CR7Goat@gmail.com</p>
@@ -65,7 +65,7 @@ const Testi = () => {
           <SwiperSlide>
             <div className="w-full h-full bg-white rounded-lg">
               <div className="flex py-10 mx-10">
-                <img src="/img/header2.svg" className="border-2 border-black rounded-full h-11" alt="" />
+                <img src="/img/fotoProfile.svg" className="border-2 border-black rounded-full h-11" alt="" />
                 <div className="flex flex-col ml-5">
                   <h1 className="font-medium font-poppins">HalaMadrid!</h1>
                   <p>BarcaClubAmpas@gmail.com</p>

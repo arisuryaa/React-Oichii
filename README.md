@@ -1,3 +1,9 @@
+Nama Kelompok :
+Ngakan Nyoman Ari Surya Khrisna (29)
+I ketut Krisna putra sinatria (11)
+I Putu Surya Saputra (20)
+I Putu Nedi Okta Mahendra (18)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
