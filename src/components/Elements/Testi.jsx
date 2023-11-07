@@ -13,7 +13,7 @@ const Testi = () => {
   return (
     <div className="w-full h-screen pt-10 bg-third" id="Testi">
       <div className="flex flex-col items-center">
-        <h1 className="px-5 pb-5 text-5xl font-semibold border-b-2 border-black font-poppins">Our Testimonial</h1>
+        <h1 className="px-5 pb-5 text-4xl font-semibold border-b-2 border-black lg:text-5xl font-poppins">Our Testimonial</h1>
       </div>
       <div className="flex items-center justify-center w-full h-5/6">
         <Swiper
@@ -30,7 +30,7 @@ const Testi = () => {
           }}
           pagination={true}
           modules={[EffectCoverflow, Pagination]}
-          className="w-1/2 shadow-2xl myswipper h-5/6"
+          className="w-[90%] myswipper h-2/3 lg:w-1/2 lg:h-4/5"
         >
           <SwiperSlide>
             <div className="w-full h-full bg-white rounded-lg shadow-xl">
@@ -50,10 +50,10 @@ const Testi = () => {
           <SwiperSlide>
             <div className="w-full h-full bg-white rounded-lg">
               <div className="flex py-10 mx-10">
-                <img src="/img/fotoProfile2.svg" className="overflow-hidden border-2 border-black rounded-full h-11" alt="" />
+                <img src="/img/Sadu.svg" className="overflow-hidden border-2 border-black rounded-full h-11" alt="" />
                 <div className="flex flex-col ml-5">
-                  <h1 className="font-medium font-poppins">RonaldoGoat</h1>
-                  <p>CR7Goat@gmail.com</p>
+                  <h1 className="font-medium font-poppins">Lelut</h1>
+                  <p>Musmus@gmail.com</p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-full h-2/5">
@@ -68,7 +68,7 @@ const Testi = () => {
                 <img src="/img/fotoProfile.svg" className="border-2 border-black rounded-full h-11" alt="" />
                 <div className="flex flex-col ml-5">
                   <h1 className="font-medium font-poppins">HalaMadrid!</h1>
-                  <p>BarcaClubAmpas@gmail.com</p>
+                  <p>nenik@gmail.com</p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center w-full h-2/5">

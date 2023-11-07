@@ -2,20 +2,20 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-full h-screen pb-10 bg-primary" id="Contact">
+    <div className="w-full h-[70vh] lg:h-screen pb-10 bg-primary" id="Contact">
       <div className="flex flex-col items-center h-full">
         <h1 className="pb-4 my-10 text-5xl font-semibold text-center border-b-2 border-black font-poppins">Contact Us.</h1>
-        <form action="" className="flex flex-col justify-center h-full gap-5">
-          <div className="flex gap-2">
+        <form action="" className="flex flex-col justify-center h-full gap-5 px-5">
+          <div className="flex gap-2 ">
             <input
               type="text"
               placeholder="First Name"
-              className="h-12 px-10 border-2 border-black rounded-md placeholder:text-button placeholder:font-medium bg-primary active:border-2 active:border-secondary"
+              className="w-1/2 h-12 px-10 border-2 border-black rounded-md placeholder:text-button placeholder:font-medium bg-primary active:border-2 active:border-secondary"
             />
             <input
               type="text"
               placeholder="Last Name"
-              className="h-12 px-10 border-2 border-black rounded-md placeholder:text-button placeholder:font-medium bg-primary active:border-2 active:border-secondary"
+              className="w-1/2 h-12 px-10 border-2 border-black rounded-md placeholder:text-button placeholder:font-medium bg-primary active:border-2 active:border-secondary"
             />
           </div>
           <input
