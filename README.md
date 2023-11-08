@@ -1,8 +1,9 @@
 Nama Kelompok :
 Ngakan Nyoman Ari Surya Khrisna (29)
 I ketut Krisna putra sinatria (11)
-I Putu Surya Saputra (20)
+I Putu Surya Saputra (20) 
 I Putu Nedi Okta Mahendra (18)
+I Wayan Sadu Windhuarta (23) 
 
 # React + Vite
 
