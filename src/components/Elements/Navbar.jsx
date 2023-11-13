@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between py-4 overflow-x-hidden text-white shadow-xl bg-secondary px-9">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between py-4 mb-10 overflow-x-hidden text-white shadow-xl bg-secondary px-9">
       <h1 className="text-xl font-semibold text-white font-poppins">OICHII</h1>
       <img src="/img/hamburger.svg" className="cursor-pointer" alt="" onClick={() => HandleonClick()} />
 
@@ -41,19 +41,19 @@ const Navbar = () => {
               <img src="/img/close.svg" alt="" className="cursor-pointer" onClick={() => HandleonClick()} />
             </div>
             <div className="flex flex-col w-2/3 overflow-x-hidden text-white">
-              <Link to="Hero" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
+              <Link to="Hero" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setClick(!Click)}>
                 Home
               </Link>
-              <Link to="story" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
+              <Link to="story" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500} onClick={() => setClick(!Click)}>
                 About
               </Link>
-              <Link to="SellProduct" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
+              <Link to="SellProduct" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setClick(!Click)}>
                 Menu
               </Link>
-              <Link to="Testi" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
+              <Link to="Testi" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setClick(!Click)}>
                 Testimonial
               </Link>
-              <Link to="Contact" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={10} duration={500}>
+              <Link to="Contact" className="mb-4 text-xl font-medium cursor-pointer" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setClick(!Click)}>
                 Contact
               </Link>
             </div>

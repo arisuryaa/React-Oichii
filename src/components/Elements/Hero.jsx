@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="w-full h-screen overflow-x-hidden bg-primary " id="Hero">
+    <div className="w-full h-screen mt-10 overflow-x-hidden bg-primary " id="Hero">
       <div className="absolute z-10 flex items-center justify-center w-full h-screen overflow-x-hidden">
         <h1 className="absolute top-20 text-[10rem] z-0 opacity-5 overflow-x-hidden font-semibold whitespace-nowrap">OICHII CAKE</h1>
         <h1 className="absolute top-0 text-[10rem] z-0 opacity-5 overflow-x-hidden  mt-56 font-semibold whitespace-nowrap">OICHII CAKE</h1>

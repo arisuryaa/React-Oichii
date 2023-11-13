@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterContent = () => {
   return (
-    <div className="w-full lg:h-[40vh] h-fit bg-secondary">
+    <div className="w-full lg:h-[45vh] h-fit bg-secondary">
       <div className="py-5 lg:flex lg:justify-between lg:w-full lg:px-10 ">
         <iframe
           className="mx-auto rounded-md lg:m-0 "
@@ -15,7 +15,7 @@ const FooterContent = () => {
             <a href="">Facebook</a>
             <a href="">Twitter</a>
           </div>
-          <p className="font-light font-poppins"> Copyright by Kelompok 8 © All Right Reserved</p>
+          <p className="font-light font-poppins"> Copyright by Dewa © All Right Reserved</p>
         </div>
       </div>
     </div>
