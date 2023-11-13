@@ -15,7 +15,7 @@ const FooterContent = () => {
             <a href="">Facebook</a>
             <a href="">Twitter</a>
           </div>
-          <p className="font-light font-poppins"> Copyright by Dewa © All Right Reserved</p>
+          <p className="font-light font-poppins"> Copyright by Kelompok 8 © All Right Reserved</p>
         </div>
       </div>
     </div>
